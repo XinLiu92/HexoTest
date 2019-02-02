@@ -1,3 +1,126 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
+  <entry>
+    <title><![CDATA[Markdown语法]]></title>
+    <url>%2F2019%2F01%2F30%2FMarkdown%E8%AF%AD%E6%B3%95%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>Tutorial</category>
+      </categories>
+      <tags>
+        <tag>Markdown</tag>
+        <tag>语法</tag>
+        <tag>Tutorial</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[MacOS 环境下的Maven配置]]></title>
+    <url>%2F2019%2F01%2F30%2FMacOS-%E7%8E%AF%E5%A2%83%E4%B8%8B%E7%9A%84Maven%E9%85%8D%E7%BD%AE%2F</url>
+    <content type="text"><![CDATA[在做information retrieval和data science项目时使用到Maven，这里介绍一下MacOs10.14 环境下如何配置Maven&lt;!−− more −−&gt; 检查首先在命令行运行mvn -v检查是否已经安装Maven,如何安装了，会返回maven的相应信息。或者使用whereis mvn来检查mvn的路径(如果已经安装)。mvn默认安装在/user/share/maven路径下，无需别的设置 注:在MacOS Mavericks以后的版本，将不再内置maven，所以需要手动安装 下载 Apache Maven从官网下载 Apache Maven:https://maven.apache.org/download.cgi 这里我下载的是apache-maven-3.6.0-bin.zip 解压缩解压下载的Maven1tar -xvf apache-maven-3.6.0-bin.tar.gz 环境变量打开文件bash_profile，路径如下:1$ vim ~/.bash_profile 如果文件不存在，就新建一个1$ touch ~/.bash_profile 在该文件中添加下面的语句：12export M2_HOME=[Maven package path]export PATH=$PATH:$M2_HOME/bin 注:[Maven package path]用刚解压缩的maven文件夹路径取代。 重启命令行，运行mvn -v,提示：12345Apache Maven 3.6.0 (97c98ec64a1fdfee7767ce5ffb20918da4f719f3; 2018-10-24T14:41:47-04:00)Maven home: /Users/xin/Documents/19Spring/DS/apache-maven-3.6.0Java version: 11.0.2, vendor: Oracle Corporation, runtime: /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/HomeDefault locale: en_US, platform encoding: UTF-8OS name: &quot;mac os x&quot;, version: &quot;10.14.2&quot;, arch: &quot;x86_64&quot;, family: &quot;mac 至此，MacOS 10.14下Maven配置结束。]]></content>
+      <categories>
+        <category>配置</category>
+      </categories>
+      <tags>
+        <tag>配置</tag>
+        <tag>Maven</tag>
+        <tag>Apache</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[OOP]]></title>
+    <url>%2F2019%2F01%2F28%2FOOP%2F</url>
+    <content type="text"><![CDATA[what is OOPtest:https://google.com OOP is Object Oriented Programming in which programs are considered as a collection of objects. Each object is nothing but an instance of a class what is a classA class is simply a representation of a type of object. It is the blueprint that describes the details of an object what is an objectan object os an instance of a class, it has its own state, behavior and identity. Basic concepts of OOP Abstraction Encapsulation Inheritance Polymorphism EncapsulationEncapsulation is an attribute of an object, and it contains all data which is hidden. That hidden data can be restricted to the members of that class. Levels are Public, Protected, Private, Internal and Proteced Internal]]></content>
+      <categories>
+        <category>Stack</category>
+        <category>OOP</category>
+      </categories>
+      <tags>
+        <tag>OOP</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[MATH840]]></title>
+    <url>%2F2019%2F01%2F27%2FMATH840%2F</url>
+    <content type="text"><![CDATA[Missing from education: solve problem uncertain thing: didn’t touch in school take probelm and solev it not repeating sth how to create stategy JMP: paper cliper break fatigue brain storm : more people more new ideasshare idea with other, come up better ideateamwork： good way save time and resource, more efficient higher education change slower statistic course is very important planning: to solve problem. pulling stategy together repeat: works touch everybody’s life. repeatable reliable product, repeatable experiment. product must repeatable and reliable. context of experiment, repeat them and make sure they are ok before sent to costumer. imagination: ask why and try to figure out.discover thing by yourself is importantimportant for all engineer field learning: use the tools we learned to solev the problem in our own codeIS-11824262]]></content>
+      <categories>
+        <category>MATH840</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[data science]]></title>
+    <url>%2F2019%2F01%2F24%2Fdata-science%2F</url>
+    <content type="text"><![CDATA[what is knowledge(pragmatic definition) infor v.s. knowledge:knowledge is subset of infor. knowledge graph raw data =&gt; collect data what is central entity and entity:anything with an entry in knowledge base(here: anything with a wiki articles) task: entity linking, detect entity mentions in text and align them to their knowledge base entity how to connect and relevant relation extraction]]></content>
+      <categories>
+        <category>data science</category>
+      </categories>
+      <tags>
+        <tag>data science</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[通往财富自由之路]]></title>
+    <url>%2F2019%2F01%2F24%2F%E9%80%9A%E5%BE%80%E8%B4%A2%E5%AF%8C%E8%87%AA%E7%94%B1%E4%B9%8B%E8%B7%AF%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>Stack</category>
+      </categories>
+      <tags>
+        <tag>阅读</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[HTTP]]></title>
+    <url>%2F2019%2F01%2F22%2FHTTP%2F</url>
+    <content type="text"><![CDATA[HTTP协议本身不具备保存之前发送过的请求或响应的功能，称之为 无状态协议，为了实现某些期望的保持状态功能， 引入了Cookie技术。 客户端发送HTTP报文时，里面会包括请求的url，可以是完整的url，也可以是网络域名或者ip地址，如果不是访问特定资源而是针对服务器本身发起的请求，可以用* 来代替url。 HTTP 方法GETGET 方法用来请求访问已被 URI 识别的资源。指定的资源经服务器端解析后返回响应内容。也就是说,如果请求的资源是文本,那就保持原样返回;如果是像 CGI(Common Gateway Interface,通用网关接口)那样的程序,则返回经过执行后的输出结果。 POST用来传输实体的主体。虽然get方法也可以传输实体的主体，但是一般不用get，post的主要目的并不是获取响应的主体内容，而是传输实体的主体。 PUT用来传输文件，像FTP协议的文件上传一样，要求在请求的报文主体中包含文件内容，然后保存到请求URI指定的位置，但是put自身不带验证机制，出于安全性的考虑，web一般不使用该方法，必须配合web应用程序验证机制，或者采用REST 标准的同类网站框架设计，可能会采用put方法 HEAD和GET方法一样，但是不返回报文主体部分，用于确认URI 的有效性及资源更新的日期时间等 DELETE用来删除文件，与put方法相反 OPTIONS查询针对请求URI指定的资源支持的方法eg：1234请求： OPTIONS * HTTP/1.1 Host:www.hckr.jp 返回： HTTP/1.1 200 OK Allow: GET, POST, HEAD, OPTIONS TRACE让web服务器端将之前的请求通讯还给客户端的方法，容易引发XST 跨站追踪攻击，一般不用 CONNECT要求在与代理服务器通信时建立隧道，实现用隧道协议进行TCP通讯，主要使用SSL 和TLS协议把通信内容加密后经网络隧道传输]]></content>
+      <categories>
+        <category>Stack</category>
+      </categories>
+      <tags>
+        <tag>HTTP</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Java]]></title>
+    <url>%2F2019%2F01%2F19%2FJava%2F</url>
+    <content type="text"><![CDATA[Please enter the password to read the blog. Incorrect Password! No content to display! U2FsdGVkX1+hkZrByXIzmfoLxyb0VOXrjSk2U+Xqe7uVJJWC3W/nEF501JRvJqPW95z+Wgn115tATIdFRWMXyh3UYs+e8AC9ySw8C+oDm42XJK1FcxHD4hs4IaE7aTiBKwCBuydn3DQgD2W1sahYa4eey+Swex6Vjufd2KXH6cwOvgRaZHTnGKQg8Iyl/eAHnt0vEX2/vh96s+P+qOoZdA==]]></content>
+      <categories>
+        <category>Stack</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[PHP]]></title>
+    <url>%2F2019%2F01%2F19%2FPHP%2F</url>
+    <content type="text"><![CDATA[123&lt;?pho$variable value?&gt; Constant: cannot change the value after define1define(&quot;NAME&quot;,VALUE);# assign value to name Fuction定义函数的时候，不用定义返回类型，可以直接返回 Build-in FunctionMath function:123456pow(a,b) # a^brand(); return rand numberrand(a, b); return rand number between a-bsqrt(a); square rootround(a); round to integer String function: 1234$string = &quot;Hello world&quot;;strlen(string);//string length;strtoupper(); string to upper casestrtolower();string to lower case Array function: 12345$list = [1231,213,32324,23,4325,435];max($list); return the max number;min($list); return the min number;print_r($list); print evey element with index;sort($list);sort the element; Use form data in PHP12345678910111213141516171819202122232425262728293031323334353637&lt;?php$_POST; if(isset($_POST['submit']))&#123; echo $_POST['submit']; echo $_POST['password']; $username= $_POST['username']; //check the element is in the array //assume we have a array named list if(!in_array($username, $list))&#123; echo "not in array"; &#125; &#125; ?&gt;&lt;!DOCTYPE html&gt;&lt;html lang="en"&gt;&lt;head&gt; &lt;meta charset="UTF-8"&gt; &lt;title&gt;Document&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;!--it will send the data to the file in action section, for here, it is helloWorld.php--&gt;&lt;form action="helloWorld.php" method="post"&gt; &lt;input type="text" name="username" placeholder="enter name" &gt; &lt;input type="password" name= "password" placeholder="enter password" &gt; &lt;br&gt; &lt;input type="submit" name="submit"&gt;&lt;/form&gt;&lt;/body&gt;&lt;/html&gt; works with database(MYSQL)phpmyadmin to manage database connection with datatbase1234567891011121314151617$connection = mysqli_connect(&apos;localhost&apos;,&apos;username&apos;,&apos;password&apos;,&apos;databases name&apos;);$query = &quot;INSERT INTO users(col name1,col name2) &quot;; sql command;$query .= &quot;VALUE(data1,data2)&quot;;//concate the previous query//create record$result = mysqli_query($connection,$query);//read database record from php$query = &quot;SELECT * FROM users&quot;;$result - mysql_query($connect, $query);while($row = mysqli_fetch_assoc($result))&#123; print_r($row);&#125;//update database]]></content>
+      <categories>
+        <category>Stack</category>
+      </categories>
+      <tags>
+        <tag>PHP</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[vps 搭建个人博客]]></title>
+    <url>%2F2019%2F01%2F16%2FHexo%2F</url>
+    <content type="text"><![CDATA[Hexo创建页面1.可以选择在hexo admin里新建页面2.可以选择在命令行：1hexo new page &quot;name&quot; 然后去博客根目录的source下面，会生成一个相应的文件夹，里面有一个index.md，把新建页的名字写进md的type里面 最后如果要让他在menu里显示的话，去到主题文件夹里面的config file，在mene地下把路径按照格式加入，路径遵循 /categories/[pagename]的格式. 主题配置菜单栏添加头像博客图标背景图个性签名本地搜索 VPSNGINXhttps调整首页显示宽度针对 Pisces，个人感觉，首页显示的宽度过大，有点不太协调，通过这个git issue找到了解决办法 点我 后台运行可以用过nohup和screen 来实现server在后台运行，即使关掉ssh，也保持运行状态，但是实测发现，nohup 有时候会自己断，网上大神有用nohup 和pm2一起工作 nohup 用法1nohup hexo s -s screen用法12screen bloghexo server -s Gdrive因为本身有不限容量的google drive,所以这里选择Gdrive作为vps文件的备份方案 配置通过命令行下载gdrive1wget -O /usr/bin/gdrive "https://docs.google.com/uc?id=0B3X9GlR6EmbnQ0FtZmJJUXEyRTA&amp;export=download" 授权：1gdrive about 然后终端会返回一个url，把url复制到浏览器，选择google 账户登陆后，会得到一组code，把code贴近终端，验证google账号完成。 gdrive会把账号信息存在/root/.gdrive的token文件里，想要更改账户的话，可以删掉该文件，重新验证 使用所有的用法在作者git上都有详细介绍，这里使用的是sync的方法,sync会检测备份文件是否有变更进而来同步1https://github.com/prasmussen/gdrive#toc10 首先用gdrive在Google drive 上创建用来储存备份的文件夹，此文件夹默认在云盘的根目录1gdrive mkdir [back_up_location] // on google drive 创建完成后会给一串代表此文件夹的地址信息，这里保存为：11GGhiFdfITFI_pBilf6enE__Lvol2J-zM 自动备份这里先手动备份一下NGINX的配置文件1gdrive upload /etc/nginx/nginx.conf 把备份的命令写进了脚本里1gdrive sync upload [dir] syc_dir 这里选择用crontab来定时启动运行gdrive备份脚本 testing]]></content>
+      <categories>
+        <category>Stack</category>
+      </categories>
+      <tags>
+        <tag>VPS</tag>
+        <tag>Hexo</tag>
+        <tag>nginx</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[[Hexo] Theme BeanTech]]></title>
+    <url>%2F2017%2F03%2F18%2Fhexo-theme-beantech%2F</url>
+    <content type="text"><![CDATA[Ported Theme of Hux Blog, Thank Huxpro for designing such a flawless theme. This BeanTech theme created by YuHsuan modified from the original Porter Kaijun Live Demo Usage I publish the whole project for your convenience, so you can just follow the instruction down below, then you can easily customiz your own blog! Let’s begin!!! Init 123git clone https://github.com/YenYuHsuan/hexo-theme-beantech.git ./hexo-beantechcd hexo-beantechnpm install Modify Modify _config.yml file with your own info.Especially the section: DeploymentReplace to your own repo!1234deploy: type: git repo: https://github.com/&lt;yourAccount&gt;/&lt;repo&gt; branch: &lt;your-branch&gt; Sidebar settingsCopy your avatar image to &lt;root&gt;/img/ and modify the _config.yml:123sidebar: true # whether or not using Sidebar.sidebar-about-description: "&lt;your description&gt;"sidebar-avatar: img/&lt;your avatar path&gt; and activate your personal widget you like1234567widgets: # here are widget you can use, you can comment out- featured-tags- short-about- recent-posts- friends-blog- archive- category if you want to add sidebar widget, please add at layout/_widget. Signature SetupCopy your signature image to &lt;root&gt;/img/signature and modify the _config.yml:12signature: true # show signaturesignature-img: img/signature/&lt;your-signature-ID&gt; Go to top icon SetupMy icon is using iron man, you can change to your own icon at css/image. Post tagYou can decide to show post tags or not.1home_posts_tag: true 1home_posts_tag: false Markdown renderMy markdown render engine plugin is hexo-renderer-markdown-it.12345678910# Markdown-it config## Docs: https://github.com/celsomiranda/hexo-renderer-markdown-it/wikimarkdown: render: html: true xhtmlOut: false breaks: true linkify: true typographer: true quotes: '“”‘’' and if you want to change the header anchor ‘ℬ’, you can go to layout/post.ejs to change it.123456async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function()&#123; anchors.options = &#123; visible: 'hover', placement: 'left', icon: ℬ // this is the header anchor "unicode" icon &#125;; Hexo Basics Some hexo command:1234hexo new post "&lt;post name&gt;" # you can change post to another layout if you wanthexo clean &amp;&amp; hexo generate # generate the static filehexo server # run hexo in local environmenthexo deploy # hexo will push the static files automatically into the specific branch(gh-pages) of your repo! Have fun ^_^ Please Star this Project if you like it! Follow would also be appreciated!Peace!]]></content>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>Blog</tag>
+      </tags>
+  </entry>
 </search>
