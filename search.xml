@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Linux常用命令]]></title>
+    <url>%2F2019%2F02%2F03%2FLinux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%2F</url>
+    <content type="text"><![CDATA[在学习过程中，Linux命令一边学，一边忘，好记性不如烂笔头，痛定思痛，决定记录下来 Linux后台运行1nohup [要运行的命令] &amp;]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[MacOS shortcut]]></title>
     <url>%2F2019%2F02%2F03%2FMacOS-shortcut%2F</url>
     <content type="text"><![CDATA[隐藏/显示文件1shift+cmd+.]]></content>
@@ -93,7 +98,7 @@
   <entry>
     <title><![CDATA[Java]]></title>
     <url>%2F2019%2F01%2F19%2FJava%2F</url>
-    <content type="text"><![CDATA[Please enter the password to read the blog. Incorrect Password! No content to display! U2FsdGVkX1+XT/cRZdCvDX/wCkFVYf+zIhGgN1oF7ekiumpXtbVYWFAFS+2hAkhvYz7oAsKyDwwAOW82nCjbEXLGZhPcdrF7W9RqJO+lO8Vz4WpPCHpAZPx47i6iCUlT4IV+UcP1Ls4tmwQuKEygbrFi3DP9SKHCE+WvUIE5oBoUNSd88wBYqMykT9vappFV+q/2ZPF7bULErcDfBooRTg==]]></content>
+    <content type="text"><![CDATA[Please enter the password to read the blog. Incorrect Password! No content to display! U2FsdGVkX1/MyOphvq3ZScthnpGM9tqSZhx3bflkfKAwJ71Xlviy7on9/1vySb22eAMhioU3zsEDZ1JW3YPojTPZC+6W+PUKIMbmK31a4yj/jboxC0fSx3USe0464Mje7/t7o4I97FVl4SeqHOpq/SKUPqPAPB2JEW8GrDtaeiqvXhS+/ODblyX/HNRbHcwIfkECRoN2WpYCdvVLLYv57g==]]></content>
       <categories>
         <category>Stack</category>
       </categories>
