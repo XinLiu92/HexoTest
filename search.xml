@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[MacOS shortcut]]></title>
+    <url>%2F2019%2F02%2F03%2FMacOS-shortcut%2F</url>
+    <content type="text"><![CDATA[隐藏/显示文件1shift+cmd+.]]></content>
+      <tags>
+        <tag>MacOS</tag>
+        <tag>Shortcut</tag>
+        <tag>苹果系统</tag>
+        <tag>快捷键</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Markdown语法]]></title>
     <url>%2F2019%2F01%2F30%2FMarkdown%E8%AF%AD%E6%B3%95%2F</url>
     <content type="text"></content>
@@ -82,7 +93,7 @@
   <entry>
     <title><![CDATA[Java]]></title>
     <url>%2F2019%2F01%2F19%2FJava%2F</url>
-    <content type="text"><![CDATA[Please enter the password to read the blog. Incorrect Password! No content to display! U2FsdGVkX1+rNBP/t6C2HeCV2FIMtVxS3stu6fTYcin2+EPFbbRDsCC1tFnaaQ6jLsDHSVQZvZpA42MrOwragKDg+tRPr3yL/GVBx01YeZDtX6F/cqA9EKwR1li7BbeLBgSm9XNJMt4a6WLaHoY1F66pUqSed3TJ7DcHHgE+BHltQ23BWKJfSIC1aNGw7uWV21SIdNHLF4pGQdE1Mu5yKA==]]></content>
+    <content type="text"><![CDATA[Please enter the password to read the blog. Incorrect Password! No content to display! U2FsdGVkX1+XT/cRZdCvDX/wCkFVYf+zIhGgN1oF7ekiumpXtbVYWFAFS+2hAkhvYz7oAsKyDwwAOW82nCjbEXLGZhPcdrF7W9RqJO+lO8Vz4WpPCHpAZPx47i6iCUlT4IV+UcP1Ls4tmwQuKEygbrFi3DP9SKHCE+WvUIE5oBoUNSd88wBYqMykT9vappFV+q/2ZPF7bULErcDfBooRTg==]]></content>
       <categories>
         <category>Stack</category>
       </categories>
