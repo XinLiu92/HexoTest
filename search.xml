@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[Computer Systems]]></title>
     <url>%2F2019%2F02%2F04%2FComputer-Systems%2F</url>
-    <content type="text"><![CDATA[Process]]></content>
+    <content type="text"><![CDATA[ProcessProcess is an instance of program execution. Like you open two browser windows, you will have two processes even though they are running at same time. The operating system will maintain the management information about process by process control block(PCB). Modern operating system allows process be divided into multiple threads of execution. These threads share all process management information except the information directly related to execution. The threads infor will hold in Thread Control Block(TCB) Thread in a process can execute different part of a program at the same time. Threads can also execute the same part of code of the same program at same time. But with different execution states]]></content>
       <categories>
         <category>Stack</category>
       </categories>
@@ -109,7 +109,7 @@
   <entry>
     <title><![CDATA[Java]]></title>
     <url>%2F2019%2F01%2F19%2FJava%2F</url>
-    <content type="text"><![CDATA[Please enter the password to read the blog. Incorrect Password! No content to display! U2FsdGVkX1+rKKqvunOiG+Z072pQbiZF/MIc/VmN74NbFhCbAN0Dh4t3LzMHJO6JWW7LifAAYoSn+fYRzfXeuqnJ3fFLOSOQ04C2tAh/Ex7953Vjs2rdVbKON2CA9j03SS69K3ygnZz7fQuU701oeaAueVaMvfBmydOjtq6wPHfjUEO6npOq6fVl4L1NmLgaV6qJMTzFpNRXJDauBt2iuw==]]></content>
+    <content type="text"><![CDATA[Please enter the password to read the blog. Incorrect Password! No content to display! U2FsdGVkX1+V4LFcz5oMMXjThvMVO0Q5JciOAe6aAeKCL3wkeyBP3Z3h+lg0MAwyAMOCrxq7+eFfM8UWlV8eHydbqqfqLGCUIvVpSb//OWsmF9hy/1QUnbl5zf+OaqIeAbsGClmQPbpfuGV4nd8/0+QA07/XLEFLOGYPC5fVm8+7JkxxNVolVPGMiEiRvZHP1CJGIH2PiJ+SM+Lwg7/ZTg==]]></content>
       <categories>
         <category>Stack</category>
       </categories>
