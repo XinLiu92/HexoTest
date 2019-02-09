@@ -14,7 +14,7 @@
   <entry>
     <title><![CDATA[Linux常用命令]]></title>
     <url>%2F2019%2F02%2F03%2FLinux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%2F</url>
-    <content type="text"><![CDATA[在学习过程中，Linux命令一边学，一边忘，好记性不如烂笔头，痛定思痛，决定记录下来 Linux后台运行1nohup [要运行的命令] &amp; 更改shellscript 权限123chmod u+x [shellscript file]//u+x: for user//+X: for everyone]]></content>
+    <content type="text"><![CDATA[在学习过程中，Linux命令一边学，一边忘，好记性不如烂笔头，痛定思痛，决定记录下来 Linux后台运行1nohup [要运行的命令] &amp; 更改shellscript 权限123chmod u+x [shellscript file]//u+x: for user//+X: for everyone 解压解压.tar.xz1tar -xvf [file.tar.xz]]]></content>
   </entry>
   <entry>
     <title><![CDATA[MacOS shortcut]]></title>
@@ -109,7 +109,7 @@
   <entry>
     <title><![CDATA[Java]]></title>
     <url>%2F2019%2F01%2F19%2FJava%2F</url>
-    <content type="text"><![CDATA[Please enter the password to read the blog. Incorrect Password! No content to display! U2FsdGVkX1+V4LFcz5oMMXjThvMVO0Q5JciOAe6aAeKCL3wkeyBP3Z3h+lg0MAwyAMOCrxq7+eFfM8UWlV8eHydbqqfqLGCUIvVpSb//OWsmF9hy/1QUnbl5zf+OaqIeAbsGClmQPbpfuGV4nd8/0+QA07/XLEFLOGYPC5fVm8+7JkxxNVolVPGMiEiRvZHP1CJGIH2PiJ+SM+Lwg7/ZTg==]]></content>
+    <content type="text"><![CDATA[Please enter the password to read the blog. Incorrect Password! No content to display! U2FsdGVkX1+7CNa5RLKBzR/G3LDPVxLGys9E2amReHZeQLQhZ3SdxKImidR4thOOuZLjgn35nPwFxAt+m5plyb+5T/aYFCQVElUDbMFyWeMLrYLXRZhXTgq4Car1sdvu0QzpqkkCE5pOeOZTxxtujnfImsnQXj/YeZHVaqJgYyuJffrM15pFhhF7Mu1LelkDN+CGqHjNyqVownOq7JRGng==]]></content>
       <categories>
         <category>Stack</category>
       </categories>
